@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Outputs from the script
+layerwise_out/
+*.pt
+*.png
+!fig1.png
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Hugging Face cache (if downloaded locally instead of default ~/.cache)
+hf_cache/
